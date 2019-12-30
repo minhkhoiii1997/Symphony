@@ -1,0 +1,52 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>sound_icon.png</file>
+    </qresource>
+    <qresource prefix="/res"/>
+    <qresource prefix="/">
+        <file>web/index.html</file>
+        <file>web/opensheetmusicdisplay.min.js</file>
+        <file>web/index.css</file>
+        <file>web/index.js</file>
+        <file>res/musicxml/Learn_Note_Values.musicxml</file>
+        <file>res/musicxml/A9_Symphony_Demo.musicxml</file>
+        <file>res/musicxml/C_Major_Scale.musicxml</file>
+        <file>res/musicxml/C_Major_Warmup.musicxml</file>
+        <file>res/musicxml/D_Major_Scale.musicxml</file>
+        <file>res/musicxml/G_Major_Scale.musicxml</file>
+        <file>res/musicxml/G_Major_Warmup.musicxml</file>
+        <file>res/musicxml/Learn_Notes_I.musicxml</file>
+        <file>res/musicxml/Learn_Notes_II.musicxml</file>
+        <file>res/musicxml/A_Major_Scale.musicxml</file>
+        <file>res/musicxml/A_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Ab_Minor_Scale.musicxml</file>
+        <file>res/musicxml/B_Major_Scale.musicxml</file>
+        <file>res/musicxml/B_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Bb_Major_Scale.musicxml</file>
+        <file>res/musicxml/Bb_Minor_Scale.musicxml</file>
+        <file>res/musicxml/C_Minor_Scale.musicxml</file>
+        <file>res/musicxml/D_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Db_Major_Scale.musicxml</file>
+        <file>res/musicxml/E_Major_Scale.musicxml</file>
+        <file>res/musicxml/E_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Eb_Major_Scale.musicxml</file>
+        <file>res/musicxml/F_Major_Scale .musicxml</file>
+        <file>res/musicxml/F_Minor_Scale.musicxml</file>
+        <file>res/musicxml/G_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Gb_Major_Scale.musicxml</file>
+        <file>res/musicxml/Gb_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Db_Minor_Scale.musicxml</file>
+        <file>res/musicxml/Eb_Minor_Scale.musicxml</file>
+        <file>res/musicxml/amazingGrace.musicxml</file>
+        <file>res/musicxml/jingleBellRock.musicxml</file>
+        <file>res/musicxml/merryChristmas.musicxml</file>
+    </qresource>
+    <qresource prefix="/web"/>
+    <qresource prefix="/helpButton">
+        <file>menuOptions.JPG</file>
+        <file>octave.JPG</file>
+        <file>staff.JPG</file>
+        <file>the keyboard.JPG</file>
+        <file>volumeSlider.JPG</file>
+    </qresource>
+</RCC>

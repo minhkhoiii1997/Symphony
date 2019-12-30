@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+#container {
+  width: 95vw;
+}
+
+#load-overlay,
+#freeplay-overlay {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  z-index: 9999;
+}
+
+#load-overlay {
+  flex-direction: column;
+}
+
+#freeplay-overlay span {
+  display: inline-block;
+  width: 5em;
+  height: 5em;
+  animation: floatbounce 1s ease-in-out infinite alternate;
+  margin: 0 1em;
+}
+
+#freeplay-overlay span:nth-child(1) {
+  background-color: #e81123;
+}
+
+#freeplay-overlay span:nth-child(2) {
+  background-color: #0078d7;
+  animation-delay: 0.25s;
+}
+
+#freeplay-overlay span:nth-child(3) {
+  background-color: #00CC6a;
+  animation-delay: 0.5s;
+}
+
+@keyframes floatbounce {
+  from { transform: translateY(0); }
+  to { transform: translateY(6.5em); }
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.loader {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  border-radius: 50%;
+  border: 5px solid #2e2e2e;
+  border-top: 5px solid #0078d7;
+  animation: loader 1s linear infinite;
+}
+
+@keyframes loader {
+  from { transform: rotate(0); }
+  to { transform: rotate(360deg); }
+}
